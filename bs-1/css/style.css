@@ -1,0 +1,70 @@
+body{
+    background: #4b515d;
+    color:#fff;
+}
+.navbar{
+    border-bottom: #5c6bc0 3px solid;
+    opacity:0.8;
+}
+
+#home-section { 
+ background: url(../img/home.jpeg);
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment: fixed;
+ min-height: 700px;
+}
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background:rgba(0,0,0,0.7);
+}
+#home-section .home-inner {
+    padding-top: 150px;
+
+}
+#home-section .card-form {
+    opacity: 0.5;
+}
+
+#home-section .fas {
+    color: #7986cb;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50px;
+}
+#explore-section .fas,
+#share-section {
+background: #4b515d;
+color:#fff;
+padding:5px;
+border-radius:5px; 
+}
+
+.explore-head-section,
+.create-head-section{    
+    background:#78909c;
+    color:#fff;
+
+}
+#create-section{
+    background: #333;
+    color:#fff;
+    border-radius: 5px;
+}
+#shs {
+    background: #78909c;
+
+}
+#b{
+background: #82b1ff;
+
+}
+.share-head-section {
+    background:#78909c;
+    color:#fff;
+
+}
